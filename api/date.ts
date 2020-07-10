@@ -1,4 +1,5 @@
-module.exports = (req, res) => {
-  const date = new Date().toString();
-  res.status(200).send(date);
-};
+import { NowRequest, NowResponse } from '@vercel/node'
+
+export default (req: NowRequest, res: NowResponse) => {
+  res.json({ name: 'John', email: 'john@example.com' })
+}
