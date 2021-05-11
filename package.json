@@ -34,7 +34,7 @@
   "dependencies": {
     "animejs": "^3.2.0",
     "iceoh": "^0.0.0-alpha",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "pixi.js": "^5.3.0",
     "rot-js": "^2.1.4",
     "wecs": "^3.6.0-alpha-rc1"
